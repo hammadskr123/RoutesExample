@@ -5,6 +5,7 @@ import Home from './assets/pages/Home'
 import About from './assets/pages/About'
 import Services from './assets/pages/Services'
 import Contact from './assets/pages/Contact'
+import Footer from './component/Footer'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Route path='/services' element={<Services />} />
       <Route path='/contact' element ={<Contact />} />
     </Routes>
+    <Footer />
     </>
 
   )
